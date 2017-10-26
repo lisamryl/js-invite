@@ -102,3 +102,7 @@ $('#font').on('change', function (evt) {
 $(".color-btn").on('click', function (evt) {
     invite.changeBackgroundColor($(evt.target).data("color"));
 });
+
+$(".image-input").on('click', function (evt) {
+    invite.changeImage(evt.target.value);
+})
